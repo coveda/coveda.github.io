@@ -1,0 +1,66 @@
+
+header {
+    position: sticky;
+    top: 0;
+    max-height: 100px;
+}
+.header {
+    background-color: white;
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+body {
+
+}
+#divsticky {
+    position: fixed;
+    bottom: 0;
+    margin: 20px;
+    right: 0;
+    display: flex;
+    gap: 20px;
+}
+
+#button1 {
+    padding: 2px;
+    padding-left: 15px ;
+    padding-right: 15px ;
+    border-radius: 15px;
+    color: white;
+    background-color: orange;
+}
+
+#divmargin {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+@media (min-width: 1032px) {
+    #divmargin {
+        margin-left: 30%;
+        margin-right: 30% ;
+    }
+}
+
+h1 {
+    font-family:'Arial';
+}
+
+h3 {
+    font-family: 'Arial';
+    font-size: 17px;
+}
+
+p {
+    font-family: 'Arial';
+    font-size: 16px;
+    text-align: justify;
+}
