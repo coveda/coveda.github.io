@@ -1,66 +1,67 @@
-
-header {
-    position: sticky;
-    top: 0;
-    max-height: 100px;
-}
-.header {
-    background-color: white;
-    border-bottom: 1px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    gap: 20px;
+.blackbg {
+    background-color: black;
 }
 
-body {
-
-}
-#divsticky {
-    position: fixed;
-    bottom: 0;
-    margin: 20px;
-    right: 0;
-    display: flex;
-    gap: 20px;
+.borde {
+    margin: auto;
+    margin-top: 220px;
+    width: 440px;
+    height: 190px;
+    padding: 30px;
 }
 
-#button1 {
-    padding: 2px;
-    padding-left: 15px ;
-    padding-right: 15px ;
-    border-radius: 15px;
-    color: white;
-    background-color: orange;
+.texto {
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: royalblue;
 }
 
-#divmargin {
-    margin-left: 5%;
-    margin-right: 5%;
+.grupodivs {
+    margin-left: 150px;
 }
 
-@media (min-width: 1032px) {
-    #divmargin {
-        margin-left: 30%;
-        margin-right: 30% ;
-    }
+.bloque {
+    background-color: royalblue;
+    opacity: 0%;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: left;
+    margin: 5px;
 }
 
-h1 {
-    font-family:'Arial';
+.fxdes1 {
+    animation-name: desaparece;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
-h3 {
-    font-family: 'Arial';
-    font-size: 17px;
+.fxdes2 {
+    animation-name: desaparece;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
 }
 
-p {
-    font-family: 'Arial';
-    font-size: 16px;
-    text-align: justify;
+.fxdes3 {
+    animation-name: desaparece;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 0.4s;
+}
+
+@keyframes desaparece {
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
+@keyframes estatica {
+    from {color: royalblue;}
+    to {color: rgb(14, 46, 144);}
 }
