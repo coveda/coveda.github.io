@@ -61,7 +61,3 @@
     to {opacity: 0%;}
 }
 
-@keyframes estatica {
-    from {color: royalblue;}
-    to {color: rgb(14, 46, 144);}
-}
