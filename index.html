@@ -3,17 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pablo Blanco</title>
-    <link href="../stylesheet.css" rel="stylesheet">
+    <title>Pablo Blanco Sepúlveda</title>
+
+    <link rel="icon" type="image/jpeg" href="/img/favicon.jpg">
+
+    <link href="stylesheet.css" rel="stylesheet">
+    <script src="main.js"></script>
 </head>
-<body class="blackbg">
-    <div class="borde">
-        <p class="texto">Página en construcción</p>
-        <div class="grupodivs">
-        <div class="bloque fxdes1"></div>
-        <div class="bloque fxdes2"></div>
-        <div class="bloque fxdes3"></div>
+<body>
+    <header id="header">
+        <div class="logositio" id="logositio">
+            <a href="index.html">
+            <h1>Pablo Blanco Sepúlveda</h1>
+            <h2>Estudiante de D.A.M. Dual - Diseñador Gráfico</h2>
+            </a>
+        </div>
+        <nav>
+           <ul class="list-header" id="list-header">
+            <li><a id="hamburguesa-header"><img src="img/hamburguesa.svg"></a></li>
+            <li><a id="cerrar-hamburguesa-header"><img src="img/cruz.svg"></a></li>
+
+            <li><a class="headeroculto" href="index.html">Página Principal</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="curriculum.html">CV</a></li>
+            <li>
+                <ul class="desplegar-header">
+                    <li class="primer-desplegar-header"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="articuloJava"><a href="portfolio.html#programacion">Programación</a></li>
+                    <li class="articuloWeb"><a href="portfolio.html#web">Desarrollo Web</a></li>
+                    <li class="articuloDiseno"><a href="portfolio.html#diseno">Diseño Gráfico</a></li>
+                    <li class="articuloBases"><a href="portfolio.html#bases">Bases de Datos</a></li>
+                </ul>
+            </li>
+            </li>
+           </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <div class="imagenIntro">
+        </div>
+    <div class="layout">
+        <div class="espacio"></div>
+        <div class="img_redonda">
+            <img style="width: 200px;" src="img/20241217_132008.png">
+        </div>
+        <br>
+        <h1>¡Hola!</h1>
+        <p style="text-align: center;">Me llamo Pablo, soy estudiante de Desarrollo de Aplicaciones Multiplataforma en Digitech, Madrid.<br>
+            Te doy la bienvenida a mi portfolio, web hecha por mí, dónde iré publicando mis proyectos personales.</p>
+
+        <div class="espacio"></div>
+
+        <h2>Un poco sobre mí...</h2>
+        <p>Soy una persona curiosa, con la necesidad constante de aprender y crecer. En 2022 finalicé mis estudios de diseño gráfico y desde entonces he trabajado de ello. Como trabajador me considero alguien responsable y comprometido con mi labor, creativo y metódico, siempre dispuesto a afrontar nuevos retos.
+        <br>Así comencé a aprender programación de forma autodidacta, hasta que finalmente decidí dar el salto al sector IT iniciando mis estudios en el Grado Superior de D.A.M.(2024-2025) en busca de nuevas metas profesionales.</p>
+        <a href="curriculum.html"><button class="botonBlanco" type="button">Lee mi CV</button></a>
+
+        <div class="espacio" id="anclaSlider"></div>
+        <h2>Mis Proyectos:</h2>
+        <div class="slider_marco">
+        <div class="slider_padre" id="slider">
+            <div class="slider_hijo articuloJava" id="sliderHijo">
+                <h2>Juego de Memoria Android Studio<br><span class="articuloAdjetivos">Java</span></h2>
+                <h3>PROGRAMACIÓN</h3>
+                <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+                <a href="proyecto1.html">Saber más</a>
+                <img src="img/proyectos/imagen1.jpg">
+            </div>
+            <div class="slider_hijo articuloWeb">
+                <h2>Memoria de mi <br> Portfolio-web<br><span class="articuloAdjetivos">HTML | CSS | JavaScript</span></h2>
+                <h3>DESARROLLO WEB</h3>
+                <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+                <img src="img/proyectos/imagen2.jpg">
+                <a href="proyecto2.html">Saber más</a>
+            </div>
+            <div class="slider_hijo articuloDiseno">
+                <h2>TFG GS Diseño Gráfico. Filipinas Colonial <br> <span class="articuloAdjetivos">Adobe Suite | Wordpress</span></h2>
+                <h3>DISEÑO GRÁFICO</h3>
+                <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+                <img src="img/proyectos/imagen3 filipinas.jpg">
+                <a href="proyecto5.html">Saber más</a>
+            </div>
+            <div class="slider_hijo articuloJava">
+                <h2>Juego Adivina la palabra <br><span class="articuloAdjetivos">Java</span></h2>
+                <h3>PROGRAMACIÓN</h3>
+                <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+                <img src="img/proyectos/imagen6.jpg">
+                <a href="proyecto6.html">Saber más</a>
+            </div>
+            <div class="slider_hijo articuloBases">
+                <h2>CRUD Tienda. Maven, Hibernate, Spring <br> <span class="articuloAdjetivos">My-SQL | Java</span></h2>
+                <h3>BASES DE DATOS</h3>
+                <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+                <img src="img/proyectos/proyecto (3).jpg">
+                <a href="proyecto3.html">Saber más</a>
+            </div>
+            <div class="slider_hijo articuloWeb">
+                <h2>Rediseño Página Web Planetario Madrid<br><span class="articuloAdjetivos">HTML | CSS | JavaScript</span></h2>
+                <h3>DESARROLLO WEB</h3>
+                <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+                <img src="img/proyectos/proyecto (4).jpg">
+                <a href="proyecto4.html">Saber más</a>
+            </div>
+        </div>
+        </div>
+        <a href="portfolio.html"><button class="botonBlanco" type="button">Ir al Portfolio</button></a>
+        <div style="display: flex; flex-direction: row;" class="ocultar">
+        <button type="button" style="position: relative; right: 440px; top: -310px;" id="sliderdch"><</button>
+        <button type="button" style="position: relative; left: 440px; top: -310px;" id="sliderizq">></button>
+        </div>
+
+        <div class="espacio"></div>
+        </div>
+
+    </div>
+    </main>
+
+    <footer>
+        <div class="columnas-footer">
+            <div>
+                <a href="index.html">
+                <h4>Pablo Blanco Sepúlveda</h4>
+                <h5>Programación y Diseño Gráfico</h5>
+                </a>
+            </div>
+            <div style="font-size: 11pt; line-height: 20pt;">
+                <br>
+                <a href="contacto.html">Contacto</a><br>
+                <a href="curriculum.html">Curriculum Vitae</a><br>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+            <div style="font-size: 11pt; line-height: 20pt;">
+                <br>
+                <a class="icon" href="tel:+34616097536"><img src="img/phone.svg"> 616 09 75 36</a><br>
+                <a class="icon" href="mailto:pablo.blanco.sep@gmail.com"><img src="img/mail.svg"> pablo.blanco.sep@gmail.com</a><br>
+                <a href="https://github.com/coveda" class="icon"><img src="img/github_PNG80.png"> coveda</a><br>
+            </div>
+        </div>
+
+        <div style="margin-top: 20px;">
+            <p style="text-align: center; font-size: 11pt; line-height: 12pt;">Ésta web ha sido creada y diseñada en html, css y js por mí</p>
+            <p style="text-align: center;">©Pablo Blanco Sepúlveda 2025</p>
+        </div>
+
+    </footer>
+
+    <!-- 
+    <div id="cookies" class="cookiesPadre" style="opacity: 0;">
+        <div class="cookiesHijo">
+            <a id="botonCookiesX"><img style="width: 30px; position: relative; left: 98%;" src="img/cruz.svg"></a>
+        <br>
+        <h1>Política de Cookies</h1><br>
+        <p style="text-align: justify;">Usamos cookies y tecnologías similares para mejorar tu experiencia en nuestro sitio web, personalizar el contenido y los anuncios, y analizar nuestro tráfico. Al continuar navegando en este sitio, aceptas el uso de cookies.
+            <br>Para obtener más información, por favor comuníquese con el administrador.
+        </p><br>
+        <button id="botonCookies1" type="button">Aceptar todas las cookies</button><button id="botonCookies2" class="botonBlanco" type="button">Aceptar sólo las esenciales</button>
+        
         </div>
     </div>
+    -->
 </body>
 </html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Blanco Sepúlveda</title>
+
+    <link rel="icon" type="image/jpeg" href="/img/favicon.jpg">
+
+    <link href="stylesheet.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="logositio" id="logositio">
+            <a href="index.html">
+            <h1>Pablo Blanco Sepúlveda</h1>
+            <h2>Estudiante de D.A.M. Dual - Diseñador Gráfico</h2>
+            </a>
+        </div>
+        <nav>
+           <ul class="list-header" id="list-header">
+            <li><a id="hamburguesa-header"><img src="img/hamburguesa.svg"></li>
+            <li><a id="cerrar-hamburguesa-header"><img src="img/cruz.svg"></a></li>
+
+            <li><a class="headeroculto" href="index.html">Página Principal</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="curriculum.html">CV</a></li>
+            <li>
+                <ul class="desplegar-header">
+                    <li class="primer-desplegar-header"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="articuloJava"><a href="portfolio.html#programacion">Programación</a></li>
+                    <li class="articuloWeb"><a href="portfolio.html#web">Desarrollo Web</a></li>
+                    <li class="articuloDiseno"><a href="portfolio.html#diseno">Diseño Gráfico</a></li>
+                    <li class="articuloBases"><a href="portfolio.html#bases">Bases de Datos</a></li>
+                </ul>
+            </li>
+            </li>
+           </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <div class="layout proyecto">
+        <div style="width: 100%;">
+        <h1>Juego "Adivina la Palabra" en Java</h1>
+        <a href="portfolio.html#programacion"><h2 class="articuloJava">PROGRAMACIÓN</h2></a>
+        <p class="articuloSubtitulo">
+            •<strong>Interfaz gráfica.</strong> Uso de Java Swing para crear una pantalla de outputs e inputs dónde se desarrolle el juego.<br>
+            •<strong>Diseño de un sistema de selección aleatoria.</strong> Las palabras de cada juego se aleatorizan cada vez que se juega para dar más profundidad y rejugabilidad.<br>
+            •<strong>Producto finalizado como un .JAR</strong> para poder ser ejecutado como archivo independiente.
+        </p>
+        </div>
+        <p class="textoFondoGris">
+            En navidad, el centro de estudios de Digitech nos propuso la actividad de diseñar un Escape Room con diferentes pruebas. Yo quise cumplir la propuesta con la creación en Java de un juego de adivinar palabras. 
+            <br><br>Se te muestra un grupo de palabras, de las cuáles eliges una. Si la palabra es la ganadora, el juego finaliza, si la palabra es errónea, el juego te dice cuántas letras están en la misma posición que en la palabra ganadora.
+            Tienes 5 intentos por partida. 
+        </p><br><br>
+        <p>
+            Tenemos 3 procesos interesantes:<br>
+            •De un diccionario de palabras se cogen sólo un grupo de 16, creado aleatoriamente para cada partida.<br>
+            •La palabra que escoges se compara con la ganadora y te devuelve cuánto se parecen.<br>
+            •El juego acaba cuando ganas 3 partidas consecutivas. Al perder, la racha se reinicia.<br><br>
+        </p>
+        <video id="video" width="100%" controls>
+            <source src="img/video/pruebaAdivinarPalabra.mp4">
+        </video>
+        <div class="espacio"></div>
+        </div>
+
+    </div>
+    </main>
+
+    <footer>
+        <div class="columnas-footer">
+            <div>
+                <a href="index.html">
+                <h4>Pablo Blanco Sepúlveda</h4>
+                <h5>Programación y Diseño Gráfico</h5>
+                </a>
+            </div>
+            <div style="font-size: 11pt; line-height: 20pt;">
+                <br>
+                <a href="contacto.html">Contacto</a><br>
+                <a href="curriculum.html">Curriculum Vitae</a><br>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+            <div style="font-size: 11pt; line-height: 20pt;">
+                <br>
+                <a class="icon" href="tel:+34616097536"><img src="img/phone.svg"> 616 09 75 36</a><br>
+                <a class="icon" href="mailto:pablo.blanco.sep@gmail.com"><img src="img/mail.svg"> pablo.blanco.sep@gmail.com</a><br>
+                <a href="https://github.com/coveda" class="icon"><img src="img/github_PNG80.png"> coveda</a><br>
+            </div>
+        </div>
+
+        <div style="margin-top: 20px;">
+            <p style="text-align: center; font-size: 11pt; line-height: 12pt;">Ésta web ha sido creada y diseñada en html, css y js por mí</p>
+            <p style="text-align: center;">©Pablo Blanco Sepúlveda 2025</p>
+        </div>
+
+    </footer>
+</body>
+</html>

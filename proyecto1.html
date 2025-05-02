@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Blanco Sepúlveda</title>
+
+    <link rel="icon" type="image/jpeg" href="/img/favicon.jpg">
+
+    <link href="stylesheet.css" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="logositio" id="logositio">
+            <a href="index.html">
+            <h1>Pablo Blanco Sepúlveda</h1>
+            <h2>Estudiante de D.A.M. Dual - Diseñador Gráfico</h2>
+            </a>
+        </div>
+        <nav>
+           <ul class="list-header" id="list-header">
+            <li><a id="hamburguesa-header"><img src="img/hamburguesa.svg"></li>
+            <li><a id="cerrar-hamburguesa-header"><img src="img/cruz.svg"></a></li>
+
+            <li><a class="headeroculto" href="index.html">Página Principal</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="curriculum.html">CV</a></li>
+            <li>
+                <ul class="desplegar-header">
+                    <li class="primer-desplegar-header"><a href="portfolio.html">Portfolio</a></li>
+                    <li class="articuloJava"><a href="portfolio.html#programacion">Programación</a></li>
+                    <li class="articuloWeb"><a href="portfolio.html#web">Desarrollo Web</a></li>
+                    <li class="articuloDiseno"><a href="portfolio.html#diseno">Diseño Gráfico</a></li>
+                    <li class="articuloBases"><a href="portfolio.html#bases">Bases de Datos</a></li>
+                </ul>
+            </li>
+            </li>
+           </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <div class="layout proyecto">
+        <div style="width: 100%;">
+        <h1>Juego de Memoria Android Studio</h1>
+        <a href="portfolio.html#programacion"><h2 class="articuloJava">Programación</h2></a>
+        <p class="articuloSubtitulo">
+            •<strong>Android Studio.</strong> Interfaz gráfica.<br>
+            •<strong>Java.</strong> Uso de clases, objetos y arrays.<br>
+            •<strong>Interacción a tiempo real con eventos.</strong> Librería "Timer".<br>
+        </p>
+        </div>
+        <p class="textoFondoGris"><strong>Juego de Memoria</strong> es un proyecto que
+            nos propuso la profesora, donde se buscaba que hiciéramos un juego de memoria dónde hay que recordar la posición de las imágenes y unir parejas.<br><br>
+        El mayor reto que encontré fue la necesidad de usar temporizadores para la gestión de las fases del juego, y la creación de arrays de clases para agilizar las acciones repetitivas.
+        </p><br><br>
+
+        <div class="grid2" style="row-gap: 70px;">
+            <div class="column1" style="display: flex; justify-content: center;">
+                <video id="video" height="500px" controls>
+                    <source src="img/video/capturaJuegoMemoria.mp4">
+                </video>
+            </div>
+            <div class="column1" style="position: relative;">
+                    <h3>PREPARACIÓN DEL JUEGO</h3><br>
+                    <p>
+                    Las fichas se reparten de forma totalmente aleatoria. Después se muestran al jugador durante unos segundos y se ocultan de nuevo.<br><br>
+                    </p><br>
+                    <h3>DESARROLLO DEL JUEGO</h3><br>
+                    <p>
+                    El jugador ahora pasa a la acción. Debe destapar una pareja de 2. Si ambas fichas son iguales, suma puntos y ya quedan destapadas.
+                    Si se ha equivocado, se tapan de nuevo. Ésta fase se repite hasta que el jugador encuentra todas las parejas.
+                    </p><br>
+                    <h3>FINAL DEL JUEGO</h3><br>
+                    <p>
+                    El jugador guarda los puntos, y se carga una nueva partida, repitiendo así el juego.
+                    </p>
+                </p>
+            </div>
+        </div>
+        <br><br>
+        <h2></h2>
+        <p>
+            
+        </p>    
+        <div class="espacio"></div>
+        </div>
+
+    </div>
+    </main>
+
+    <footer>
+        <div class="columnas-footer">
+            <div>
+                <a href="index.html">
+                <h4>Pablo Blanco Sepúlveda</h4>
+                <h5>Programación y Diseño Gráfico</h5>
+                </a>
+            </div>
+            <div style="font-size: 11pt; line-height: 20pt;">
+                <br>
+                <a href="contacto.html">Contacto</a><br>
+                <a href="curriculum.html">Curriculum Vitae</a><br>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
+            <div style="font-size: 11pt; line-height: 20pt;">
+                <br>
+                <a class="icon" href="tel:+34616097536"><img src="img/phone.svg"> 616 09 75 36</a><br>
+                <a class="icon" href="mailto:pablo.blanco.sep@gmail.com"><img src="img/mail.svg"> pablo.blanco.sep@gmail.com</a><br>
+                <a href="https://github.com/coveda" class="icon"><img src="img/github_PNG80.png"> coveda</a><br>
+            </div>
+        </div>
+
+        <div style="margin-top: 20px;">
+            <p style="text-align: center; font-size: 11pt; line-height: 12pt;">Ésta web ha sido creada y diseñada en html, css y js por mí</p>
+            <p style="text-align: center;">©Pablo Blanco Sepúlveda 2025</p>
+        </div>
+
+    </footer>
+</body>
+</html>
