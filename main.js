@@ -373,7 +373,8 @@ if (marcadorPag == '#diseno') {
      }
 }
 
-if (nombrePag=='index.html' && nombrePag2 ==='coveda.github.io') {
+
+try {
 
     //COOKIES
 /*
@@ -449,6 +450,9 @@ document.getElementById('sliderdch').addEventListener('click', function() {
 
 })
 
+}
+catch(error) {
+    
 }
 
 //SLIDER FILIPINAS PROYECTO
