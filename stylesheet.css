@@ -891,6 +891,8 @@ header {
         position: relative;
         right: 25%;
         text-align: center;
+
+
     }
 
     .list-header {
@@ -1068,5 +1070,15 @@ header {
         gap: 0;
     }
 
+}
+
+@media screen and (max-width:444px) {
+
+    .logositio {
+        h2 {
+            color: transparent;
+            background-color: transparent;
+        }
+    }
 }
 
