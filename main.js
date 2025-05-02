@@ -15,11 +15,10 @@ var sliderHijo = document.getElementById('sliderHijo');
 //DETECTOR nombre de la página. Devuelve positivo si es el index---
 //Así puedo restringir animaciones a páginas concretas- Header se hace visible desde el inicio si la pag no es index
 let nombrePag = window.location.pathname.split('/').pop();
+let nombrePag2 = window.location.pathname;
 let marcadorPag = window.location.hash;
 
-this.alert(nombrePag)
-
-if (nombrePag!='index.html' && nombrePag != null) {
+if (nombrePag!='index.html' && nombrePag2 !='coveda.github.io') {
     header.style.transition = 'none';
     header.style.opacity = '100%';
 }
@@ -39,7 +38,7 @@ if (parseInt(window.innerWidth)<=600) {
 window.addEventListener('scroll', function() {
 
 
-    if ((nombrePag == 'index.html' || nombrePag == null) && parseInt(window.innerWidth)>600) {
+    if ((nombrePag == 'index.html' && nombrePag2 =='coveda.github.io') && parseInt(window.innerWidth)>600) {
 
         if (window.scrollY > 100) {
             header.setAttribute('style', 'opacity:100%;')
@@ -374,7 +373,7 @@ if (marcadorPag == '#diseno') {
      }
 }
 
-if ((nombrePag === 'index.html' || nombrePag === null)) {
+if (nombrePag=='index.html' && nombrePag2 ==='coveda.github.io') {
 
     //COOKIES
 /*
