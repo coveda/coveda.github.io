@@ -17,7 +17,7 @@ var sliderHijo = document.getElementById('sliderHijo');
 let nombrePag = window.location.pathname.split('/').pop();
 let marcadorPag = window.location.hash;
 
-if (nombrePag!='index.html' && nombrePag != '') {
+if (nombrePag!='index.html' && nombrePag != 'coveda.github.io') {
     header.style.transition = 'none';
     header.style.opacity = '100%';
 }
@@ -37,7 +37,7 @@ if (parseInt(window.innerWidth)<=600) {
 window.addEventListener('scroll', function() {
 
 
-    if ((nombrePag == 'index.html' || nombrePag == '') && parseInt(window.innerWidth)>600) {
+    if ((nombrePag == 'index.html' || nombrePag == 'coveda.github.io') && parseInt(window.innerWidth)>600) {
 
         if (window.scrollY > 100) {
             header.setAttribute('style', 'opacity:100%;')
@@ -372,7 +372,7 @@ if (marcadorPag == '#diseno') {
      }
 }
 
-if ((nombrePag === 'index.html' || nombrePag === '')) {
+if ((nombrePag === 'index.html' || nombrePag === 'coveda.github.io')) {
 
     //COOKIES
 /*
