@@ -37,7 +37,7 @@ if (parseInt(window.innerWidth)<=600) {
 window.addEventListener('scroll', function() {
 
 
-    if (nombrePag=='index.html' && parseInt(window.innerWidth)>600) {
+    if ((nombrePag == 'index.html' || nombrePag == '') && parseInt(window.innerWidth)>600) {
 
         if (window.scrollY > 100) {
             header.setAttribute('style', 'opacity:100%;')
