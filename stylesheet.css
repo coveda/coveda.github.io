@@ -126,7 +126,7 @@ header {
     position: fixed;
 
     opacity: 100%;
-    transition: 0.5s ease-out;
+    transition: none;
 
     a {
         color: inherit;
@@ -896,6 +896,7 @@ header {
     }
 
     .list-header {
+        color: transparent;
 
         gap: 0;
 
@@ -909,6 +910,7 @@ header {
     }
 
     .list-header2 {
+
         background-color: #FCFCFC;
         height: 100vh;
         width: 100vw;

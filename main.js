@@ -243,7 +243,7 @@ if (formApellido.value == '' || formApellido.value.indexOf('@') != -1 || formApe
 hamburguesa.addEventListener('click', function() {
     
     listaHeader.setAttribute('class', 'list-header2');
-
+    
 })
 
 cerrarHamburguesa.addEventListener('click', function() {
