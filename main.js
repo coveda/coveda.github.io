@@ -17,6 +17,8 @@ var sliderHijo = document.getElementById('sliderHijo');
 let nombrePag = window.location.pathname.split('/').pop();
 let marcadorPag = window.location.hash;
 
+this.alert(nombrePag)
+
 if (nombrePag!='index.html' && nombrePag != 'coveda.github.io') {
     header.style.transition = 'none';
     header.style.opacity = '100%';
