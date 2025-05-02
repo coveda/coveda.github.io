@@ -17,7 +17,7 @@ var sliderHijo = document.getElementById('sliderHijo');
 let nombrePag = window.location.pathname.split('/').pop();
 let marcadorPag = window.location.hash;
 
-if (nombrePag!='index.html') {
+if (nombrePag!='index.html' && nombrePag != '') {
     header.style.transition = 'none';
     header.style.opacity = '100%';
 }
@@ -372,7 +372,7 @@ if (marcadorPag == '#diseno') {
      }
 }
 
-if (nombrePag=='index.html') {
+if ((nombrePag === 'index.html' || nombrePag === '')) {
 
     //COOKIES
 /*
