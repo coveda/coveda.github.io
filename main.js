@@ -18,7 +18,9 @@ let nombrePag = window.location.pathname.split('/').pop();
 let nombrePag2 = window.location.pathname;
 let marcadorPag = window.location.hash;
 
-if (nombrePag!='index.html' && nombrePag2 !='coveda.github.io') {
+/*
+
+if (nombrePag!='index.html') {
     header.style.transition = 'none';
     header.style.opacity = '100%';
 }
@@ -38,7 +40,7 @@ if (parseInt(window.innerWidth)<=600) {
 window.addEventListener('scroll', function() {
 
 
-    if ((nombrePag == 'index.html' || nombrePag2 =='coveda.github.io') && parseInt(window.innerWidth)>600) {
+    if ((nombrePag == 'index.html') && parseInt(window.innerWidth)>600) {
 
         if (window.scrollY > 100) {
             header.setAttribute('style', 'opacity:100%;')
@@ -52,6 +54,8 @@ window.addEventListener('scroll', function() {
         header.setAttribute('style', 'opacity:100%;')
     }
 })
+
+*/
 
 //FORMULARIO
 
